@@ -1,0 +1,69 @@
+Git and Version control
+
+Git commands and uses:
+- ls
+   - shows all the files
+
+- ls -al
+   - shows all the hidden files
+
+- cd 
+   - to jump to the secondry repo
+
+- git status
+   - to show if there is any commit requiredor is there any issue with the file
+
+- there are 4 types of git status
+   - untracked : new files that git doesnt track yet
+   - modified : changed
+   - staged : file is ready to be commited
+   - unmodified : unchanged
+
+- add command
+     - adds new or changed files in your working directory to the git staging area 
+        git add <-file name->
+- commit command 
+      - it is the record of change
+        git commit -m "some message"
+
+- push command
+     - push upload local repo content to remote repo 
+       git push origin main
+- init command
+     - init used to create a new git repo
+     - git init
+     - git remote add origin<-link->
+     - git remote -v  (to verify remote)
+     - git branch.  (To check branch)
+     - git branch -M main. (Branch rename)
+ 
+- workflow
+     Git hub repo - clone - changes - add - commit - push   
+
+- branch commands
+     - git branch. (To check branch) 
+     - git branch -M main. (To rename branch) 
+     - git checkout <-branch name->
+     - git checkout -b <-new branch name->. (To create new branch) 
+     - git branch -d <-branch name->. (To delete branch)
+
+- merging code
+   - way1
+      - git diff <-branch name->. (To compare, commit branches files and more)
+      - git merge <-branch name->. (To merge branches)
+    
+   - way2
+      - create a PR : it let's you tell others about changes you've pushed to a branch in a repo  
+
+- pull command 
+     - used to fetch and download content from a remote reporter and immediately update the local repo to make the content 
+      git pull origin main
+- resolving merge issue
+     - an event that takes place when git is unable to automaticly resolve differences in code between two commits
+
+- git log
+     - tells about previous commit
+
+- fork
+     - rough copy                         
+                   
